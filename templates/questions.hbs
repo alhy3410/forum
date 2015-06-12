@@ -1,0 +1,12 @@
+<h1>Questions</h1>
+
+
+<ul>
+  {{#each}}
+    <li>{{#link-to 'question' this.id}}{{question}}{{/link-to}} : {{author}}</li>
+  {{/each}}
+</ul>
+
+<p>
+  {{#link-to 'new-question' classNames="btn btn-primary"}}New Question{{/link-to}}
+</p>
