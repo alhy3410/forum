@@ -1,0 +1,18 @@
+body{
+  background-image: url('/images/forum.jpg');
+  background-size: cover;
+  color: white;
+  margin: 10%;
+}
+
+.form-group{
+  background-color:white;
+  color:black;
+}
+
+
+.list-item{
+  background-color:white;
+  color:black;
+  margin:0 25% 0 0;
+}

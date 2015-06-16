@@ -3,7 +3,10 @@
 
 <ul>
   {{#each}}
-    <li>{{#link-to 'question' this.id}}{{question}}{{/link-to}} : {{author}}</li>
+    <div class='list-item'>
+      <li>{{#link-to 'question' this.id}}{{question}}{{/link-to}} : {{author}}</li>
+    </div>
+    <br>
   {{/each}}
 </ul>
 
